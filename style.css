@@ -31,10 +31,8 @@ nav .nav-item a:hover {
 
 
 
-.home-text p:first-child,
-.home-text p:nth-child(2),
 .home-text h1,
-.home-text h5,
+.home-text p,
 .btn_container a,
 .about_info h2,
 .education_info h2,
@@ -51,8 +49,10 @@ nav a{
 }
 
 .home-text p:nth-child(2),
+.home-text p:last-child,
 .home-text h5 {
     color: white;
+
 }
 
 .btn_container a,
@@ -152,10 +152,11 @@ nav a{
 
     .home img,
     .about img {
-        height: 40vh;
+        height: 30vh;
     }
 
 }
+
 
 
 
