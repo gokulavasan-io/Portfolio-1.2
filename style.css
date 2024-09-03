@@ -86,7 +86,7 @@ nav a{
 }
 
 .btn_container a:last-child:hover {
-    border-color: black;
+    border-color: white;
 }
 
 .about h2 {
