@@ -17,6 +17,9 @@ nav {
     background-image: linear-gradient(TO RIGHT, rgb(0, 0, 0), #737374);
 
 }
+nav{
+    border-bottom: 1px white solid;
+}
 
 .bg {
     background-color: rgb(57, 240, 225);
