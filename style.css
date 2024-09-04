@@ -188,3 +188,8 @@ nav a{
     width: 90%;
 }
 
+.bootstrap .progress-bar {
+    width: 40%;
+}
+
+
