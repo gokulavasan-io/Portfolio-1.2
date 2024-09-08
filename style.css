@@ -173,7 +173,7 @@ nav a{
 }
 
 .javascript .progress-bar {
-    width: 30%;
+    width: 50%;
 }
 
 .python .progress-bar {
@@ -189,7 +189,14 @@ nav a{
 }
 
 .bootstrap .progress-bar {
-    width: 40%;
+    width: 70%;
+}
+.tailwind .progress-bar {
+    width: 60%;
+}
+
+.jquery .progress-bar {
+    width: 50%;
 }
 
 
