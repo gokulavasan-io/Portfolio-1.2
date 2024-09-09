@@ -89,7 +89,11 @@ nav a{
 }
 
 .btn_container a:last-child:hover {
-    border-color: white;
+    border-color: rgb(0, 0, 0);
+}
+
+.my_photo{
+    border: #f1d934 15px solid;
 }
 
 .about h2 {
@@ -198,5 +202,4 @@ nav a{
 .jquery .progress-bar {
     width: 50%;
 }
-
 
