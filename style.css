@@ -5,10 +5,12 @@
 }
 
 :root {
-    --primary_yellow: #f1d934;
+    --primary_yellow: #f1d934;;
     --white: #fff;
 
 }
+
+/* #f1d934; */
 
 
 
@@ -93,7 +95,7 @@ nav a{
 }
 
 .my_photo{
-    border: #f1d934 15px solid;
+    border: var(--primary_yellow) 15px solid;
 }
 
 .about h2 {
