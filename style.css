@@ -222,9 +222,7 @@ nav a {
     .project-container div:hover{
         transform: none;
     }
-    .project-container div:nth-child(4):hover,.project-container div:nth-child(5):hover,.project-container div:nth-child(6):hover {
-        transform:none;
-    }
+    
 }
 
 .contact-inputs {
