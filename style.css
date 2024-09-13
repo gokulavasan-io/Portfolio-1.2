@@ -163,15 +163,7 @@ nav a {
     transform: scale(1.2) translate(50px);
 }
 
-.project-container div:nth-child(4):hover {
-    transform: scale(1.2) translate(-30px);
-}
-
-.project-container div:nth-child(5):hover {
-    transform: scale(1.2) translate(-30px);
-}
-
-.project-container div:nth-child(6):hover {
+.project-container div:nth-child(4):hover,.project-container div:nth-child(5):hover,.project-container div:nth-child(6):hover {
     transform: scale(1.2) translate(-30px);
 }
 
@@ -229,6 +221,9 @@ nav a {
     }
     .project-container div:hover{
         transform: none;
+    }
+    .project-container div:nth-child(4):hover,.project-container div:nth-child(5):hover,.project-container div:nth-child(6):hover {
+        transform:none;
     }
 }
 
