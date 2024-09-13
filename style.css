@@ -40,7 +40,7 @@ nav .nav-item a:hover {
 .home-text p,
 .btn_container a,
 .about_info h2,
-.education_info h2,
+.education_info h2,.contact h2,
 .skills h2,.about .education_info p span:first-child {
     color: var(--primary_yellow);
     font-weight: bolder;
@@ -64,7 +64,7 @@ nav a{
 .about_info h2,
 .education_info h2,
 .skills h2,
-.contact h2 {
+.contact h2,.get_in_touch h2,.projects h2 {
     border: 3px solid;
     border-radius: 50px;
     text-decoration: none;
@@ -72,16 +72,16 @@ nav a{
     cursor: pointer;
 }
 
-.btn_container a:first-child,
+.btn_container a:first-child,.get_in_touch button,
 .btn_container a:last-child:hover,
 .education_info h2,
-.contact h2 {
+.get_in_touch h2,.projects h2 {
     color: rgb(0, 0, 0);
     background-color: var(--primary_yellow);
     border-color: var(--primary_yellow);
 }
 
-.btn_container a:first-child:hover,
+.btn_container a:first-child:hover,.get_in_touch:hover,
 .btn_container a:last-child,
 .about_info h2 {
     color: var(--white);
@@ -98,13 +98,11 @@ nav a{
     border: var(--primary_yellow) 15px solid;
 }
 
-.about h2 {
-    width: fit-content;
-}
 
 
-.skills h2,
-.contact h2 {
+
+.about h2,.get_in_touch h2 ,.skills h2,
+.contact h2,.projects h2 {
     width: max-content;
 }
 
@@ -165,11 +163,24 @@ nav a{
     .about img{
         display: none;
     }
+   
 
 }
 
 
-
+.contact-inputs{
+    border-radius: 50px;
+}
+.get_in_touch textarea{
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border:#f1d934 solid 2px;
+}
+.contact-inputs::placeholder{
+    color: rgb(182, 159, 5);
+    font-weight: 400;
+}
 
 
 .html .progress-bar {
