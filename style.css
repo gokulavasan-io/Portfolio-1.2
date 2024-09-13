@@ -227,6 +227,9 @@ nav a {
     .about img {
         display: none;
     }
+    .project-container div:hover{
+        transform: none;
+    }
 }
 
 .contact-inputs {
