@@ -122,6 +122,9 @@ nav a {
 .about p {
     color: var(--white);
 }
+.about img{
+    border-radius: 20px;
+}
 
 
 .skills p {
