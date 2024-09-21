@@ -5,8 +5,7 @@
 }
 
 :root {
-    --primary_yellow: #f1d934;
-    ;
+    --primary_yellow: #f1d934;;
     --white: #fff;
 
 }
@@ -23,10 +22,6 @@ nav {
 
 nav {
     border-bottom: 1px white solid;
-}
-
-.bg {
-    background-color: rgb(57, 240, 225);
 }
 
 nav .nav-item a:hover {
@@ -60,7 +55,7 @@ nav a {
 .home-text p:nth-child(2),
 .home-text p:last-child,
 .home-text h5 {
-    color: white;
+    color: var(--white);
 
 }
 
@@ -94,7 +89,7 @@ nav a {
 .btn_container a:last-child,
 .about_info h2 {
     color: var(--white);
-    border: --white 2px solid;
+    border: var(--white) 2px solid;
     background-color: black;
 
 }
@@ -104,7 +99,7 @@ nav a {
 }
 
 .my_photo {
-    border: var(--primary_yellow) 15px solid;
+    border: var(--primary_yellow) 7px solid;
 }
 
 
@@ -124,6 +119,7 @@ nav a {
 }
 .about img{
     border-radius: 20px;
+    box-shadow: var(--primary_yellow) 10px 10px 15px;
 }
 
 
@@ -142,12 +138,10 @@ nav a {
     gap: 40px;
     flex-wrap: wrap;
     flex-grow: 1;
-
-
 }
 
 .project-container div {
-    border: #f1d934 3px solid;
+    border: var(--primary_yellow) 3px solid;
     background: rgb(90, 89, 89);
     padding: 2em;
     border-radius: 10px;
@@ -163,9 +157,12 @@ nav a {
 
 .project-container div:hover {
     border-color: rgb(234, 48, 48);
-    transform: scale(1.2) translate(50px);
 }
 
+.project-container div:nth-child(1):hover,.project-container div:nth-child(2):hover,.project-container div:nth-child(3):hover {
+    transform: scale(1.2) translate(30px);
+    z-index: 1;
+}
 .project-container div:nth-child(4):hover,.project-container div:nth-child(5):hover,.project-container div:nth-child(6):hover {
     transform: scale(1.2) translate(-30px);
 }
@@ -195,6 +192,7 @@ nav a {
 
 .progress {
     height: 1em;
+    border-radius: 50px;
 }
 
 .contact_content a {
@@ -222,13 +220,9 @@ nav a {
     .about img {
         display: none;
     }
-    .project-container div:hover{
+    .project-item{
         transform: none;
     }
-    .project-container div:nth-child(4):hover,.project-container div:nth-child(5):hover,.project-container div:nth-child(6):hover {
-        transform: none;
-    }
-    
 }
 
 .contact-inputs {
@@ -240,11 +234,13 @@ nav a {
 }
 
 .contact-inputs:focus {
-    border: #f1d934 solid 2px;
+    outline: none;
+    border-radius: 50px;
+    border:var(--primary_yellow) solid 4px;
 }
 
 .contact-inputs::placeholder {
-    color: rgb(255, 0, 0);
+    color:rgb(101, 100, 100);
     font-weight: 600;
     padding-left: 20px;
 
@@ -285,4 +281,26 @@ nav a {
 
 .jquery .progress-bar {
     width: 50%;
+}
+
+
+.home-text h1{
+    display: inline-flex;
+    border-right: 3px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10ch;
+    animation: typing 3s steps(30) infinite alternate,blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
 }
