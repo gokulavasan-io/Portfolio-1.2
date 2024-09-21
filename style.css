@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary_yellow: #f1d934;;
+    --primary_color: #f1d934;;
     --white: #fff;
 
 }
@@ -32,7 +32,7 @@ nav a {
 nav .nav-item a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
-    color: var(--primary_yellow) !important;
+    color: var(--primary_color) !important;
 }
 
 /* ================== home ============== */
@@ -45,7 +45,7 @@ nav .nav-item a:hover {
 .contact h2,
 .skills h2,
 .about .education_info p span:first-child {
-    color: var(--primary_yellow);
+    color: var(--primary_color);
     font-weight: bolder;
     font-family: "League Spartan", sans-serif;
 
@@ -80,8 +80,8 @@ nav .nav-item a:hover {
 .get_in_touch h2,
 .projects h2 {
     color: rgb(0, 0, 0);
-    background-color: var(--primary_yellow);
-    border-color: var(--primary_yellow);
+    background-color: var(--primary_color);
+    border-color: var(--primary_color);
 }
 
 .btn_container a:first-child:hover,
@@ -98,8 +98,8 @@ nav .nav-item a:hover {
 }
 
 .home img {
-    border: var(--primary_yellow) 7px solid;
-    box-shadow: #f1d934 0 0 10px;
+    border: var(--primary_color) 7px solid;
+    box-shadow: var(--primary_color) 0 0 10px;
 }
 
 /* ================= about ================ */
@@ -117,7 +117,7 @@ nav .nav-item a:hover {
 }
 .about img{
     border-radius: 20px;
-    box-shadow: var(--primary_yellow) 10px 10px 2px;
+    box-shadow: var(--primary_color) 10px 10px 2px;
 }
 
 
@@ -138,7 +138,7 @@ nav .nav-item a:hover {
 }
 
 .progress-bar {
-    background-color: var(--primary_yellow);
+    background-color: var(--primary_color);
     border-radius: 50px;
     animation: progress 5s infinite;
 }
@@ -160,8 +160,8 @@ nav .nav-item a:hover {
 }
 
 .project-container div {
-    border: var(--primary_yellow) 3px solid;
-    background: rgba(232, 232, 232, 0.099);
+    border: var(--primary_color) 3px solid;
+    background: rgb(86, 85, 85);
     padding: 2em;
     border-radius: 10px;
     display: flex;
@@ -211,7 +211,7 @@ nav .nav-item a:hover {
 .contact-inputs:focus {
     outline: none;
     border-radius: 50px;
-    border:var(--primary_yellow) solid 4px;
+    border:var(--primary_color) solid 4px;
 }
 
 textarea {
@@ -219,7 +219,7 @@ textarea {
 }
 textarea:hover{
     outline: none;
-    border:var(--primary_yellow) solid 4px;
+    border:var(--primary_color) solid 4px;
 }
 
 
