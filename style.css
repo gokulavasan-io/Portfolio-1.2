@@ -5,8 +5,7 @@
 }
 
 :root {
-    --primary_color: #f1d934;
-    ;
+    --primary_color: #f1d934;;
     --white: #fff;
 
 }
@@ -236,32 +235,51 @@ textarea:hover {
 /* ====================  progress for skills ===================== */
 .html .progress-bar {
     width: 80%;
+    
+}
+.html-percent{
+    left: 75%;
 }
 
 .css .progress-bar {
     width: 70%;
 }
+.css-percent{
+    left: 65%;
+}
 
 .javascript .progress-bar {
-    width: 50%;
+    width: 40%;
+}
+.js-percent{
+    left: 40%;
 }
 
 .python .progress-bar {
-    width: 55%;
+    width: 35%;
+}
+.python-percent{
+    left: 35%;
 }
 
 .cpp .progress-bar {
     width: 40%;
+}
+.cpp-percent{
+    left: 40%;
 }
 
 .problem_solving .progress-bar {
     width: 90%;
 }
 
+
 .bootstrap .progress-bar {
     width: 70%;
 }
-
+.bootstrap-percent{
+    left: 65%;
+}
 .tailwind .progress-bar {
     width: 60%;
 }
@@ -332,6 +350,11 @@ textarea:hover {
         width: 0;
     }
 }
+@keyframes percent{
+    0%{
+        left: 0%;;
+    } 
+}
 
 
 .home-text h1 {
@@ -358,9 +381,16 @@ textarea:hover {
 .skills img {
     animation: rotate 2s infinite;
 }
-
+.html_content{
+    position: relative;
+}
 .progress-bar {
-    animation: progress 3s infinite alternate ease-in-out;
+    animation: progress 3s ;
+}
+.percent{
+    animation: percent 3s forwards;
+    position: absolute;
+    bottom: 1.3em;
 }
 
 .contact img {
