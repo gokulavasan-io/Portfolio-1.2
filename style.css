@@ -286,15 +286,13 @@ textarea:hover {
 @media only screen and (min-width: 768px) {
 
     .project-container div:nth-child(1):hover,
-    .project-container div:nth-child(2):hover,
-    .project-container div:nth-child(3):hover {
+    .project-container div:nth-child(2):hover{
         transform: scale(1.2) translate(30px);
         z-index: 1;
     }
 
-    .project-container div:nth-child(4):hover,
-    .project-container div:nth-child(5):hover,
-    .project-container div:nth-child(6):hover {
+    .project-container div:nth-child(3):hover,
+    .project-container div:nth-child(4):hover,{
         transform: scale(1.2) translate(-30px);
     }
 
