@@ -332,12 +332,6 @@ textarea:hover {
     }
 }
 
-@keyframes beat {
-    50% {
-        transform: scale(.8);
-    }
-}
-
 @keyframes progress {
     from {
         width: 0;
@@ -357,22 +351,6 @@ textarea:hover {
     overflow: hidden;
     width: 10ch;
     animation: typing 3s steps(30) infinite alternate, blink 0.5s step-end infinite alternate;
-}
-
-.about img {
-    animation: beat 2s infinite;
-}
-
-.about img:hover {
-    animation: trans 2s infinite;
-}
-
-.skills p {
-    animation: beat 5s infinite;
-}
-
-.skills img {
-    animation: rotate 2s infinite;
 }
 .html_content{
     position: relative;
