@@ -273,20 +273,13 @@ textarea:hover {
     width: 90%;
 }
 
-
 .bootstrap .progress-bar {
     width: 70%;
 }
 .bootstrap-percent{
     left: 65%;
 }
-.tailwind .progress-bar {
-    width: 60%;
-}
 
-.jquery .progress-bar {
-    width: 50%;
-}
 
 
 /* =================  Mediaquiries ============ */
