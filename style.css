@@ -206,31 +206,7 @@ nav .nav-item a:hover {
 
 }
 
-.contact-inputs {
-    border-radius: 50px;
-}
 
-.contact-inputs:focus {
-    outline: none;
-    border-radius: 50px;
-    border: var(--primary_color) solid 4px;
-}
-
-textarea {
-    border-radius: 20px;
-}
-
-textarea:hover {
-    outline: none;
-    border: var(--primary_color) solid 4px;
-}
-
-
-.contact-inputs::placeholder {
-    color: rgb(101, 100, 100);
-    font-weight: 600;
-    padding-left: 20px;
-}
 
 /* ====================  progress for skills ===================== */
 .html .progress-bar {
