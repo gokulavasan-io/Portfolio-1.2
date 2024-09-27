@@ -206,6 +206,12 @@ nav .nav-item a:hover {
 
 }
 
+footer{
+    color: black;
+    height: 2vh;
+    font-weight: 600;
+}
+
 
 
 /* ====================  progress for skills ===================== */
